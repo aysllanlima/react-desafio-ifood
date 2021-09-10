@@ -1,0 +1,38 @@
+.column-size {
+  width: auto;
+  max-width: 400px;
+}
+
+.card-size {
+  border: 1px solid rgba(0, 0, 0, 0.450);
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.500);
+  border-radius: 30px;
+  width: auto;
+  max-width: 400px;
+}
+
+.card-image {
+  background: rgba(0, 0, 0, 0.100);
+  border: 1px solid rgba(0, 0, 0, 0.150);
+  border-radius: 30px;
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.card-text-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(64, 255, 47);
+}

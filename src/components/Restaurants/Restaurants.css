@@ -1,0 +1,12 @@
+.restaurants-icon {
+  width: auto;
+  height: auto;
+  max-height: 80px;
+  max-width: 80px;
+  border-radius: 40px;
+}
+
+.categories-link {
+  text-decoration: none;
+  color: black;
+}
