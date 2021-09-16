@@ -3,6 +3,7 @@ import { Image } from 'react-bootstrap';
 import './Categories.css';
 
 export function Categories() {
+  /* */
   return (
     <div className="my-4 container">
       <div className="row">

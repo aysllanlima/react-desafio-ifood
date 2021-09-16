@@ -1,16 +1,17 @@
 import React from 'react'
+import { BrowserRouter as Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, FormControl, Button, Image, NavLink } from 'react-bootstrap';
 import { Search, Coin, Bag, BoxArrowInRight } from 'react-bootstrap-icons';
 import { InputGroup } from 'react-bootstrap-v5';
 import './Header.css';
 
-import { HeaderModal } from './HeaderModal';
+import { HeaderModal } from './HeaderModal/HeaderModal';
 
 export function Header() {
   return (
     <Navbar bg="light" expand="lg">
       <div className="container">
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/">
           <Image className="mx-4 logo-ifood" src="images/logo-ifood.png" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -37,7 +38,8 @@ export function Header() {
                 aria-describedby="basic-addon1"
               />
             </InputGroup>
-            <Button className="mx-4 size-button" variant="outline-secondary">Entregar em</Button>
+            <HeaderModal />
+            <Button href="/Page2" className="me-4 size-button" variant="outline-secondary">Loja</Button>
           </Nav>
           <NavLink>
             <Coin />

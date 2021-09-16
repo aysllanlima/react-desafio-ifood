@@ -1,0 +1,27 @@
+.combo-offer-image {
+  height: auto; 
+  width: auto; 
+  max-width: 200px; 
+  max-height: 200px;
+}
+
+.border {
+  box-sizing: border-box;
+  border: 0.5px solid rgb(218, 217, 217);
+  border-radius: 8px;
+}
+
+.offer-button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: white;
+  text-align: start;
+}
+
+.combo-modal-size {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
